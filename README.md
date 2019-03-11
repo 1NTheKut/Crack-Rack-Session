@@ -1,6 +1,6 @@
 # Crack-Rack-Session
 
-Customized the PentesterLab Rack Cookies and Commands Injection section from the PentesterLab Bootcamp (http://pentesterlab.com/bootcamp) to automate tampering rack session cookies to gain a shell to the web server without having to touch the command line more than once.
+Customized the PentesterLab Rack Cookies and Commands Injection section from the PentesterLab Bootcamp (http://pentesterlab.com/bootcamp) to automate tampering rack session cookies to gain a shell to the web server.
 
 ### Prerequisities
 1. If running on a `*.nix` machine, configure the pentesterlab vm to be reached from your host or guest VM. Go to `/etc/hosts` and create a hostname to match the IP of their vm. More instructions to download it can be found on their page (http://pentesterlab.com/exercises/rack_cookies_and_commands_injection/course). I am running on a Kali Linux vm and both my vm and pentesterlab's vm is configured on a NAT network.
